@@ -1,7 +1,8 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
     margin: 0;
-    font-size: 30px;
+    font-size: 1.3rem;
+    line-height: 1.4;
     padding: 0;
     background-color: whitesmoke;
 }
@@ -19,7 +20,7 @@ main {
 }
 
 main h2 {
-    font-size: 65px;
+    font-size: 60px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -43,16 +44,18 @@ header {
 
 
 .logo {
-    width: 120px;         
+    width: 130px;         
     height: auto;
 }
 
 
 header h1 {
-    font-size: 130px;     
+    font-size: 130px;
     margin: 0;
     text-shadow: 0 3px 6px rgb(26, 25, 25);
+    margin: 40px 0;
 }
+
 
 nav {
     background-color: rgb(60, 60, 60);
@@ -75,10 +78,11 @@ nav a {
     padding: 15px 70px;
     color: white;
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
 nav a:hover {
-    background-color: #0077aa;
+    background-color: black;
 }
 
 
@@ -186,3 +190,6 @@ footer {
     text-align: left;
     margin: 0;
 }
+
+
+
